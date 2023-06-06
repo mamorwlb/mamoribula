@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photo.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	overflow: scroll;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 3px 5px;
+	border: 1px solid transparent;
+	transition: 0.06s ease;
+}
+
+ul li a:hover{
+	background-color: #ffcb1e;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title {
+	background : rgba(245, 155, 0, 0.60);
+	font-size: 30px;
+	position: relative;
+	top: 250px;
+}
+
+p1{
+	
+	font-size: 18px;
+	position: absolute;
+	bottom: -350px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+
+.logo{
+	position: absolute;
+	bottom: 45%;
+	left: 47%;
+	transform: translate(-50%,-50%);
+}
+
+p2{
+	position: absolute;
+	color: #f0ffff;
+	bottom: 85%;
+	left: 35%;
+	float: center;
+	text-align: center;
+}
+
+.head{
+	position: relative;
+	color: #f0ffff;
+	float: center;
+	text-align: center;
+}
+
+.service{
+	
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.container h2{
+	color: white;
+	font-size:45px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+
+.card{
+	height: 400px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+h5{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px
+}
+
+.Contact-me{
+	width: 100%;
+	height: 190px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.Contact-me .button-two{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+
+.Contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.pra img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.servicee{
+	
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.containerr h2{
+	color: white;
+	font-size:45px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.boxx{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+
+.cardd{
+	height: 50px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+
+
+
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	
+	
+	transition: .4s;
+}
+
+.pra li{
+	color: #fcfc;
+	font-size: 16px;
+	
+	text-align: center;
+}
+
+
+.boxxx{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+
+.carddd{
+	height: 150px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+
+
+
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	transition: .4s;
+}
+
+
+.boxxx li{
+	color: #fcfc;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.footer {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.footer footer{
+	text-align: center;
+	position: relative;
+	color:white ;
+	text-decoration: none;
+
+}
